@@ -1,0 +1,26 @@
+{
+  "name": "adhaar-lamda",
+  "version": "1.0.0",
+  "description": "Lamda function for verifying adhaar",
+  "main": "handler.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "deploy": "serverless deploy"
+  },
+  "author": "Shameem Lukman",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "serverless-http": "^3.0.1",
+    "serverless-offline": "^9.2.5",
+    "serverless-webpack": "^5.8.0",
+    "tesseract.js": "^2.1.5",
+    "webpack": "^5.74.0"
+  }
+}
